@@ -13,6 +13,9 @@
 
 */
 
+
+
+/*
 #include <iostream>
 
 using namespace std;
@@ -41,11 +44,11 @@ int main()
     cout<<"No";
     return 0;
 }
+*/
 
 
 
-
-/*此处POJ通过不了，不知什么原因
+//此处POJ通过不了，不知什么原因
 #include <iostream>
 
 using namespace std;
@@ -57,7 +60,12 @@ int main()
     string str;
     cin.get();
     cin>>str;
-    for(int i=0;i<str.size()-k;i++)
+    if(k>str.size())
+    {
+        cout<<"No";
+        return 0;
+    }
+    for(int i=0;i<=str.size()-k;i++)
     {
         j = 0;
         while(str[i]==str[i+j])
@@ -74,4 +82,4 @@ int main()
     cout<<"No";
     return 0;
 }
-*/
+
