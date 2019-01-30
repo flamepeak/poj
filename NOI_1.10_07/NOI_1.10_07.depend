@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1548744183 source:d:\develop\bailian.openjudge\noi_1.10_07\main.cpp
+	<iostream>
+	<algorithm>
+	<cstdio>
+
