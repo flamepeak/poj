@@ -38,7 +38,6 @@ int main()
         else
             x=mid;
     }
-    cout<<x<<" "<<y<<endl;
     printf("%.3lf\n",L/(2*x)*(1-cos(y)));
     return 0;
 }
